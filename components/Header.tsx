@@ -1,9 +1,9 @@
 const Header = () => {
     return (
-        <div className="bg-gray-800 py-2">
+        <div className="bg-[#EFCEC9] py-3 font-sans font-[Open Sans]">
             <div className="container mx-auto">
                 <div className="flex justify-between items-center">
-                    <div className="text-white">
+                    <div className="text-black">
                         <ul className="flex space-x-4">
                             <li>
                                 <a href="javascript:;" className="flex items-center">
@@ -19,19 +19,19 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="text-white">
+                    <div className="text-black">
                         <ul className="flex space-x-4">
                             <li><a href="javascript:;"><i></i></a></li>
                             <li><a href="javascript:;"><i></i></a></li>
                             <li><a href="javascript:;"><i></i></a></li>
                             <li><a href="javascript:;"><i></i></a></li>
                             <li>
-                                <a href="javascript:;">
-                                    <span data-bs-toggle="modal" data-bs-target="#staticBackdrop" className="cursor-pointer">
+                                <a href="javascript:;" className="cursor-pointer px-4 py-2 bg-[#911439] text-white">
+                                    <span data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                         Login
                                     </span>
                                     /
-                                    <span data-bs-toggle="modal" data-bs-target="#staticBackdrop1" className="cursor-pointer">
+                                    <span data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
                                         Register
                                     </span>
                                 </a>
