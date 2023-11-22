@@ -11,10 +11,9 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className='bg-black text-white'>
-      <div className="container">
-        <div className="grid grid-cols-4 gap-4">
-          <div className="col-span-1 bg-gradient-to-r from-purple-500 to-pink-500 px-2">
+      <div className="bg-[#222222] text-white">
+        <div className="px-20 py-20 grid grid-cols-4 gap-3">
+          <div className="col-span-1 px-2">
             <div>
               <div>
                 <Image src="/images/footer-logo.png" alt="Logo"  width={200} height={200} />
@@ -28,21 +27,25 @@ const Footer = () => {
               <div className="footer-icon">
                 <ul className="flex space-x-4">
                   <li>
+                    <br />
                     <Link href="#" passHref>
                       <SiFacebook />
                     </Link>
                   </li>
                   <li>
+                    <br />
                     <Link href="#" passHref>
                     <FaInstagram />
                     </Link>
                   </li>
                   <li>
+                    <br />
                     <Link href="#" passHref>
                     <FaWhatsapp />
                     </Link>
                   </li>
                   <li>
+                    <br />
                     <Link href="#" passHref>
                       <FaTiktok/>
                     </Link>
@@ -83,8 +86,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-span-1 bg-red-500">
-            <div className="container mx-auto p-4">
+          <div className="col-span-1">
+            <div className="container mx-auto">
             <h5 className="text-lg uppercase font-bold">Instagram Post</h5>
               <ul className="grid grid-cols-3 gap-4">
                 <li>
@@ -158,7 +161,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bottom-footer">
+        <hr className="text-gray-500 dark:text-gray-400 w-64 h-1" />
+        <div className="flex justify-center">
           <p>
             Copyright © {new Date().getFullYear()} Nail Salon Template Designed By{' '}
             <Link href="#" passHref>
@@ -167,7 +171,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </div>
   );
 };
 
