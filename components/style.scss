@@ -1,0 +1,75 @@
+/*-------------------------------------
+    
+	Template Name: Pulchritude Nail art salon and booking HTML Template
+	Copyright © 2023-24 
+	
+---------------------------------------
+    
+    Table of Content 
+    ===================
+    1. top-header-wrapper.
+
+    2. inner-page-wrapper.
+
+    3. blog-wrapper-one.
+    
+    4. Common Css Start.
+
+    5. contact-wrapper.
+
+    6. error-page.
+
+    7. footer-wrapper.
+
+    8. product__carousel .
+
+    9. experience-wrapper .
+
+    10. banner-wrapper-two .
+
+    11. price-wrapper.
+
+    12. service-left page css start .
+    
+    14.accordion1-main-wrapper.
+
+---------------------------------------*/
+
+
+/* ....................................
+3 Index-one CSS 
+.......................................*/
+@import '../components/index-one';
+
+
+
+// /* ....................................
+// 11 Shortcode CSS 
+// .......................................*/
+// @import 'shortcode/shortcode';
+
+
+
+@-webkit-keyframes jump {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 50%, 0);
+    }
+}
+
+@keyframes jump {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 50%, 0);
+    }
+}
