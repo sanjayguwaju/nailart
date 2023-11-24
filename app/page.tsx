@@ -1,19 +1,28 @@
-"use client"
+"use client";
 
-import './globals.css'
-import Header from '@/components/Header'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import CarouselCode from '@/components/Carousel'
-import OurBlog from '@/components/OurBlog'
+import "./globals.css";
+import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import CarouselCode from "@/components/Carousel";
+import OurBlog from "@/components/OurBlog";
+import Button from "@/components/Button";
 
 export default function Home() {
   return (
     <>
-      <Header/>
-      <Navbar/>
-      <CarouselCode/>
-      <Footer/>
+      <Header />
+      <Navbar />
+      <CarouselCode
+        images={[
+          "https://res.cloudinary.com/dz3facqgc/image/upload/v1700838318/tok8ygzylz5mp75yg3vq.webp",
+          "/images/bg-slider-3.jpg",
+          "/images/bg-slider-4.jpg",
+        ]}
+        titles={["First title", "Second title", "Third title"]}
+      />
+      <Button/>
+      <Footer />
     </>
-  )
+  );
 }
