@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CarouselCode from "@/components/Carousel";
 import OurBlog from "@/components/OurBlog";
-import Button from "@/components/Button";
+import Button from "@/components/AnimatedButton";
 
 export default function Home() {
   return (
@@ -19,9 +19,9 @@ export default function Home() {
           "/images/bg-slider-3.jpg",
           "/images/bg-slider-4.jpg",
         ]}
-        titles={["First title", "Second title", "Third title"]}
+        titles={["GET A NEW LOOK FOR YOUR NAILS", "GET YOUR NAILS DONE BY A SKILLED NAIL ARTIST", "CHOOSE THE BEST ATTITUDE AND SERVICES"]}
+        subtitles={["Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists."]}
       />
-      <Button/>
       <Footer />
     </>
   );
