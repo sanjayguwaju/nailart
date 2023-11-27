@@ -21,6 +21,7 @@ const config: Config = {
       height: {
         'screen-90': '90vh',
       },
+      PlayfairDisplay: ['Playfair Display', 'serif'],
     },
   },
   plugins: [
