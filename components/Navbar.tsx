@@ -19,7 +19,7 @@ const Navbar = () => {
                             <div>
                                 <ul className="flex items-center justify-center space-x-12 p-4">
                                     <li className="group m-2 relative">
-                                        <Link href="#">Home</Link>
+                                        <Link href="/">Home</Link>
                                         <ul className="hidden group-hover:block m-1 absolute left-0 bg-white z-10 transition transform ease-in-out duration-200 scale-95 group-hover:scale-100 opacity-0 group-hover:opacity-100 w-64 text-lg">
                                             <li className='text-black m-4 px-1'>
                                                 <Link href="/home1">Home 1</Link>
@@ -33,13 +33,13 @@ const Navbar = () => {
                                         </ul>
                                     </li>
                                     <li className='m-2'>
-                                        <Link href="/contact">Services</Link>
+                                        <Link href="/service">Services</Link>
                                     </li>
                                     <li className='m-2'>
-                                        <Link href="/contact">Gallery</Link>
+                                        <Link href="/gallery">Gallery</Link>
                                     </li>
                                     <li className='m-2'>
-                                        <Link href="/contact">About Us</Link>
+                                        <Link href="/about">About Us</Link>
                                     </li>
                                     <li className='m-2'>
                                         <Link href="/contact">Contact Us</Link>
