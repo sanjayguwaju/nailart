@@ -1,4 +1,5 @@
 import React from 'react';
+import './AnimatedButton.css';
 
 interface AnimatedButtonProps {
     label: string;
@@ -6,8 +7,9 @@ interface AnimatedButtonProps {
 
 const AnimatedButton: React.FC<AnimatedButtonProps> = ({ label }) => {
     return (
-        <button className="wave bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-8">
-            {label}
+        <button className="button">
+            <span className="button-text">{label}</span>
+            <div className="fill-container"></div>
         </button>
     );
 };
