@@ -5,7 +5,7 @@ import Image from "next/image";
 const OurServices: React.FC = () => {
   return (
     <div>
-      <div className="relative md:w-full md:h-screen-90">
+      <div className="relative md:w-full md:h-screen-90 bg-black text-white">
     <div className="font-Playfair Display flex flex-col space-y-8 mt-10 w-full md:w-[820px] h-[360px] pt-8 md:pt-20 px-4 md:px-20 mx-auto md:mx-[200px] my-[1000px] items-left z-10 relative pb-0">
           <h1 className="text-3xl md:text-5xl">Our Services</h1>
           <h2 className="text-2xl md:text-3xl">WHAT WE OFFER</h2>
