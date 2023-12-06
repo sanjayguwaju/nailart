@@ -26,7 +26,7 @@ const OurServices: React.FC = () => {
             src="https://res.cloudinary.com/dz3facqgc/image/upload/v1700836037/a8lksbuubdiy8qf7rqtr.webp"
             alt="Manicure"
             width={200}
-            height={200}
+            height={500}
             layout="responsive"
           />
           <h3 className="text-xl">Manicure</h3>
@@ -36,7 +36,7 @@ const OurServices: React.FC = () => {
             src="https://res.cloudinary.com/dz3facqgc/image/upload/v1700836037/a8lksbuubdiy8qf7rqtr.webp"
             alt="Pedicure"
             width={200}
-            height={200}
+            height={500}
             layout="responsive"
           />
           <h3 className="text-xl">Pedicure</h3>
@@ -46,7 +46,7 @@ const OurServices: React.FC = () => {
             src="https://res.cloudinary.com/dz3facqgc/image/upload/v1700836037/a8lksbuubdiy8qf7rqtr.webp"
             alt="Nail Art"
             width={200}
-            height={200}
+            height={500}
             layout="responsive"
           />
           <h3 className="text-xl">Nail Art</h3>
@@ -56,7 +56,7 @@ const OurServices: React.FC = () => {
             src="https://res.cloudinary.com/dz3facqgc/image/upload/v1700836037/a8lksbuubdiy8qf7rqtr.webp"
             alt="Paraffin Hands"
             width={200}
-            height={200}
+            height={500}
             layout="responsive"
           />
           <h3 className="text-xl">Paraffin Hands</h3>
