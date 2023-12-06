@@ -6,7 +6,7 @@ const OurServices: React.FC = () => {
   return (
     <div>
       <div className="relative md:w-full md:h-screen-90 bg-black text-white">
-        <div className="font-Playfair Display flex flex-col space-y-8 my-0 w-full md:w-[820px] h-[360px] pt-8 md:pt-20 px-4 md:px-20 mx-auto md:mx-[200px] items-left z-10 relative pb-0">
+        <div className="font-Playfair Display flex flex-col space-y-8 my-0 w-full md:w-[820px] h-[360px] pt-8 md:pt-20 px-4 md:px-20 mx-auto md:mx-[200px] items-left relative pb-0">
           <h2 className="text-2xl md:text-2xl">Our Services</h2>
           <h1 className="text-2xl md:text-3xl">WHAT WE OFFER</h1>
           <p>
@@ -18,7 +18,7 @@ const OurServices: React.FC = () => {
           </p>
           <AnimatedButton label="Read More" />
         </div>
-        <div className="relative flex-col my-10 z-20 lg:h-[500px]">
+        <div className="relative flex-col my-0 z-20 lg:h-[500px]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto px-4">
               <div className="service-card">
                 <Image

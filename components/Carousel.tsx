@@ -18,7 +18,7 @@ const CarouselCode: React.FC<CarouselCodeProps> = ({
   subtitles,
 }) => {
   return (
-    <div className="relative md:w-full md:h-screen-90">
+    <div className="relative w-full h-screen md:h-screen-90">
       <Carousel>
         {images.map((src, index) => (
           <div
