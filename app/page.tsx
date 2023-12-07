@@ -8,12 +8,13 @@ import CarouselCode from "@/components/Carousel";
 import OurBlog from "@/components/OurBlog";
 import Button from "@/components/AnimatedButton";
 import OurServices from "@/components/OurServices";
+import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Navbar />
+      <Nav/>
       <CarouselCode
         images={[
           "https://res.cloudinary.com/dz3facqgc/image/upload/v1700838318/tok8ygzylz5mp75yg3vq.webp",
