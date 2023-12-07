@@ -1,8 +1,14 @@
-import React from 'react';
+import { useState } from 'react';
 import Image from 'next/image'
 import Link from 'next/link';
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        console.log("hello");
+        setIsOpen(!isOpen);
+    };
     return (
         <div className="w-full text-black">
             <div className="w-full">
@@ -15,7 +21,7 @@ const Navbar = () => {
                                 </div>
                             </Link>
                         </div>
-                        <nav className="flex-grow">
+                        <nav className={`flex-grow md:block ${isOpen ? 'block' : 'hidden'}`}>
                             <div>
                                 <ul className="flex items-center justify-center space-x-12 p-4">
                                     <li className="group m-2 relative">
@@ -55,7 +61,7 @@ const Navbar = () => {
                             </Link>
                         </div>
                         <div className="block md:hidden w-1/2 sm:w-1/2">
-                            <button className="nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                            <button className="nav-toggle" type="button" onClick={toggleMenu}>
                                 <span className="nav-toggle__text">Toggle Menu</span>
                             </button>
                         </div>
