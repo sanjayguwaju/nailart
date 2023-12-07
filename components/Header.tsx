@@ -1,3 +1,5 @@
+"use client"
+
 const Header = () => {
     return (
         <div className="bg-[#EFCEC9] py-3 font-sans font-[Open Sans]">
