@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import AnimatedButton from "./AnimatedButton";
 import Image from "next/image";
