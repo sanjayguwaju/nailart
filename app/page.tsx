@@ -11,6 +11,7 @@ import OurServices from "@/components/OurServices";
 import Nav from "@/components/Nav";
 import Foot from "@/components/Foot";
 import Slider from "@/components/Slider";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -27,7 +28,8 @@ export default function Home() {
         titles={["GET A NEW LOOK FOR YOUR NAILS", "GET YOUR NAILS DONE BY A SKILLED NAIL ARTIST", "CHOOSE THE BEST ATTITUDE AND SERVICES"]}
         subtitles={["Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists."]}
       /> */}
-      <OurServices />
+      {/* <OurServices /> */}
+      <Services/>
       {/* <Footer /> */}
       <Foot/>
     </>
