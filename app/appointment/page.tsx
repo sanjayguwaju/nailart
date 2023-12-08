@@ -1,5 +1,5 @@
-import Foot from "@/components/Footer";
-import Nav from "@/components/Navbar";
+import Foot from "@/components/Foot";
+import Nav from "@/components/Nav";
 import AppointmentForm from "@/components/AppointmentForm";
 
 
