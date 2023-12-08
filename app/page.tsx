@@ -9,13 +9,15 @@ import OurBlog from "@/components/OurBlog";
 import Button from "@/components/AnimatedButton";
 import OurServices from "@/components/OurServices";
 import Nav from "@/components/Nav";
+import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Nav/>
-      <CarouselCode
+      <Slider/>
+      {/* <CarouselCode
         images={[
           "https://res.cloudinary.com/dz3facqgc/image/upload/v1700838318/tok8ygzylz5mp75yg3vq.webp",
           "/images/bg-slider-3.jpg",
@@ -23,9 +25,9 @@ export default function Home() {
         ]}
         titles={["GET A NEW LOOK FOR YOUR NAILS", "GET YOUR NAILS DONE BY A SKILLED NAIL ARTIST", "CHOOSE THE BEST ATTITUDE AND SERVICES"]}
         subtitles={["Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists."]}
-      />
+      /> */}
       <OurServices />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
