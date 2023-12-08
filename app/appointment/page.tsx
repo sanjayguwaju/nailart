@@ -1,13 +1,14 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import Foot from "@/components/Foot";
+import Nav from "@/components/Nav";
+import AppointmentForm from "@/components/AppointmentForm";
 
 
 const Appointment = () => {
   return (
     <div>
-      <Navbar />
-      <h1> This is appointment page.</h1>
-      <Footer />
+      <Nav/>
+      <AppointmentForm/>
+      <Foot/>
     </div>
   );
 };
