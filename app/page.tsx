@@ -11,6 +11,7 @@ import OurServices from "@/components/OurServices";
 import Nav from "@/components/Nav";
 import Foot from "@/components/Foot";
 import Slider from "@/components/Slider";
+import SocialProof from "@/components/SocialProof";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         subtitles={["Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists."]}
       /> */}
       <OurServices />
+      <SocialProof/>
       {/* <Footer /> */}
       <Foot/>
     </>

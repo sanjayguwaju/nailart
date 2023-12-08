@@ -22,7 +22,7 @@ const Slider = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 100000); // Change slide every 3 seconds
+    const interval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
     return () => clearInterval(interval);
   }, []);
 
