@@ -18,12 +18,12 @@ const CarouselCode: React.FC<CarouselCodeProps> = ({
   subtitles,
 }) => {
   return (
-    <div className="relative md:w-full md:h-screen-90">
+    <div className="relative w-full h-screen md:w-full md:h-screen-90">
       <Carousel>
         {images.map((src, index) => (
           <div
             key={index}
-            className="h-56 sm:h-64 md:h-80 lg:w-full lg:h-full"
+            className="w-full relative sm:h-64 md:h-80 lg:w-full lg:h-full"
           >
             <Image src={src} alt={`Slide ${index + 1}`} fill={true} />
             <div className="font-'Playfair Display' flex flex-col space-y-8 mt-10 w-[820px] h-[360px] py-20 px-20 mx-[200px] my-[1000px] items-left z-10 relative">
