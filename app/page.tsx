@@ -9,6 +9,7 @@ import OurBlog from "@/components/OurBlog";
 import Button from "@/components/AnimatedButton";
 import OurServices from "@/components/OurServices";
 import Nav from "@/components/Nav";
+import Foot from "@/components/Foot";
 import Slider from "@/components/Slider";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       /> */}
       <OurServices />
       {/* <Footer /> */}
+      <Foot/>
     </>
   );
 }
