@@ -9,6 +9,7 @@ import OurBlog from "@/components/OurBlog";
 import Button from "@/components/AnimatedButton";
 import OurServices from "@/components/OurServices";
 import Nav from "@/components/Nav";
+import Foot from "@/components/Foot";
 
 export default function Home() {
   return (
@@ -25,7 +26,8 @@ export default function Home() {
         subtitles={["Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists.", "Change Your Nails Look With Our Talented Stylists."]}
       />
       <OurServices />
-      <Footer />
+      {/* <Footer /> */}
+      <Foot/>
     </>
   );
 }
