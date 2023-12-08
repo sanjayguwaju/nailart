@@ -1,14 +1,13 @@
-import Footer from "@/components/Footer";
+import Foot from "@/components/Foot";
 import GalleryGrid from "@/components/GalleryGrid";
-import Navbar from "@/components/Navbar";
-
+import Nav from "@/components/Nav";
 
 const Gallery = () => {
   return (
     <div>
-      <Navbar />
+      <Nav/>
       <GalleryGrid />
-      <Footer />
+      <Foot/>
     </div>
   );
 };
