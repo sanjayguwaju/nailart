@@ -13,6 +13,7 @@ import Foot from "@/components/Foot";
 import Slider from "@/components/Slider";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
+import FacebookMsg from "@/components/FacebookMsg";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Services/>
       <Testimonial/>
       <Foot/>
+      <FacebookMsg/>
     </>
   );
 }
