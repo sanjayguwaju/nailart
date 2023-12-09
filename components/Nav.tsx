@@ -18,7 +18,7 @@ const Nav = () => {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Image src="https://flowbite.com/docs/images/logo.svg" width={100} height={50} className="h-8" alt="Nailart Logo"/>
+            <Image src="https://res.cloudinary.com/dz3facqgc/image/upload/v1702130405/vnsyj11rzlzhpbp6j1ke.png" width={100} height={50} className="h-8" alt="Nailart Logo"/>
             {/* <Image src="/images/logo.png" alt="logo" width={200} height={100} className="h-8" /> */}
             <span className="hidden self-center text-2xl font-semibold whitespace-nowrap dark:text-white md:block lg:block">
               NAILSARTBYAKATSUKI
