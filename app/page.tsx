@@ -13,6 +13,7 @@ import Foot from "@/components/Foot";
 import Slider from "@/components/Slider";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
+import ContactUs from "@/components/ContactUs";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Slider/>
       <Services/>
       <Testimonial/>
+      <ContactUs/>
       <Foot/>
     </>
   );
