@@ -17,7 +17,7 @@ const GalleryGrid = () => {
 
   return (
     <>
-      <div className="relative text-4xl text-center my-8 flex justify-center items-center">
+      <div className="relative text-4xl text-center mt-[80px] flex justify-center items-center">
         <Image
           src="https://res.cloudinary.com/dz3facqgc/image/upload/v1701261839/jze6nwq4k1cec67a01da.webp"
           alt="gallery"
@@ -29,10 +29,9 @@ const GalleryGrid = () => {
           Gallery
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-white mx-20 my-20">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 bg-white mx-[15px] my-[50px]">
         {images.map((src, index) => (
           <div key={index} className="grid gap-4">
-            <div className="">
               <Image
                 className="h-auto max-w-full rounded-lg"
                 src={src}
@@ -43,7 +42,6 @@ const GalleryGrid = () => {
                 loading="eager"
                 placeholder="empty"
               />
-            </div>
           </div>
         ))}
       </div>

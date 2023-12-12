@@ -15,14 +15,14 @@ const Nav = () => {
       <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
-            href="https://flowbite.com/"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            {/* <Image src="https://flowbite.com/docs/images/logo.svg" fill={true} className="h-8" alt="Flowbite Logo"/> */}
+            <Image src="https://res.cloudinary.com/dz3facqgc/image/upload/v1702130405/vnsyj11rzlzhpbp6j1ke.png" width={100} height={50} className="w-full h-full lg:w-[200px] lg:h-[70px]" alt="Nailart Logo"/>
             {/* <Image src="/images/logo.png" alt="logo" width={200} height={100} className="h-8" /> */}
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Artnail
-            </span>
+            {/* <span className="hidden self-center text-2xl font-semibold whitespace-nowrap dark:text-white md:block lg:block">
+              NAILSARTBYAKATSUKI
+            </span> */}
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <Link
